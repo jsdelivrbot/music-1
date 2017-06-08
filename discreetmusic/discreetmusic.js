@@ -1,11 +1,4 @@
-let synth = new Tone.MonoSynth({
-    oscillator: {type: 'sawtooth'},
-    filterEnvelope: {
-    baseFrequency: 200,
-    octaves: 2
-    }
-});
+// var synth = new Tone.Synth().toMaster()
 
-synth.toMaster();
-synth.triggerAttackRelease('C4', 1);
-
+//play a middle 'C' for the duration of an 8th note
+// synth.triggerAttackRelease('C4', '8n')
